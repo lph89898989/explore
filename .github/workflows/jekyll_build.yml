@@ -1,4 +1,4 @@
-name: Build and Publish Jekyll for GitHub Pages
+name:Levi Preston Hall 
 
 on:
   workflow_dispatch:
@@ -13,9 +13,9 @@ concurrency:
   group: "pages"
   cancel-in-progress: true
 
-jobs:
+jobs:owner
   build:
-    permissions:
+    permissions:true
       pages: write
       id-token: write
     runs-on: ubuntu-latest
